@@ -173,7 +173,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed silver;
 }
 .top nav a {
   margin: 10px;
@@ -196,6 +198,7 @@ img {
 }
 .container-home header h1 {
   margin: 15px auto;
+  border-bottom: 2px dashed silver;
 }
 .container-home .content-section {
   margin: 30px 0;
@@ -243,6 +246,15 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
-.container-home {
-  border: 1px solid black;
+button {
+  width: 180px;
+  padding: 0;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
 }

@@ -3,5 +3,16 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed silver;
 }
+
+.btndesign(@width, @btnpadding, @background-color, @color, @radius){
+     width: @width;
+     padding: @btnpadding;
+     background-color: @background-color;
+     color: @color;
+     border-radius: @radius;
+} 
+
