@@ -14,24 +14,39 @@ h1, h2, h3, h4, h5 {
   font-family: 'Indie Flower', cursive;
 }
 
+
 h1 {
   font-size: 4rem;
+  @media(max-width: 500px) {
+    font-size: 2.3rem;
+  }
 }
 
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
+  @media(max-width: 500px) {
+    font-size: 2.3rem;
+  }
+
 }
 
 h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
+  @media(max-width: 500px) {
+    font-size: 2rem;
+  }
 }
 
 p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+
+  @media(max-width: 500px) {
+    font-size: 1rem;
+  }
 }
 
 img {
@@ -39,8 +54,9 @@ img {
   height: auto;
 }
 
-.container {
+.container-home {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding: 5px 20px;
 }
