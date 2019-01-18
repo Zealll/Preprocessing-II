@@ -10,12 +10,17 @@
 
 button {
     
-    .btndesign(180px, 0,  @button-bg, @white, 10px);
+    .btndesign(75%, 0,  @button-bg, @white, 10px);
     height: 30px;
     border: none;
 
     &:hover {
         cursor: pointer;
+        background: pink;
+    }
+
+    @media(max-width: 500px) {
+        width: 90%;
     }
 
 }

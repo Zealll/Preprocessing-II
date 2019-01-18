@@ -2,6 +2,11 @@
 
 .top {
     .navstyle;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 20px;
+
     nav a {
         margin:10px;
         color:black;
@@ -10,4 +15,22 @@
             color: red;
         }
     }
+
+    @media(max-width: 500px) {
+        .column500px;
+        nav {
+            display: flex;
+            margin: 0 50px;
+            width: 100%;
+            justify-content: space-between;
+        }
+        
+    }
+
+    
+    
+}
+
+.lines {
+    border-bottom: 2px dashed silver;
 }
